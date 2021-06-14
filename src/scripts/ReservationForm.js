@@ -33,31 +33,31 @@ mainContainer.addEventListener("click", clickEvent => {
 export const ReservationForm = () => {
     let html = `
         <div class="field">
-            <label class="label" for="parentName">Parent Name</label>
+            <label class="label" for="parentName">Parent Name:</label>
             <input type="text" name="parentName" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="childName">Child Name</label>
+            <label class="label" for="childName">Child Name:</label>
             <input type="text" name="childName" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="childrenAttending">Number of Children Attending</label>
+            <label class="label" for="childrenAttending">Number of Children Attending:</label>
             <input type="text" name="childrenAttending" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="reservationAddress">Address</label>
+            <label class="label" for="reservationAddress">Address:</label>
             <input type="text" name="reservationAddress" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="partyDate">Party Date</label>
-            <input type="number" name="partyDate" class="input" />
+            <label class="label" for="partyDate">Party Date:</label>
+            <input type="date" name="partyDate" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="duration">Duration</label>
-            <input type="date" name="duration" class="input" />
+            <label class="label" for="duration">Duration (hours):</label>
+            <input type="number" name="duration" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="dateReserved">Date Reserved</label>
+            <label class="label" for="dateReserved">Date Reserved:</label>
             <input type="date" name="dateReserved" class="input" />
         </div>
         <button class="button" id="submitReservation">Submit Reservation</button>

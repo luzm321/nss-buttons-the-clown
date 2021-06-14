@@ -14,7 +14,7 @@ export const fetchReservations = () => {
         .then(
             (reservationRequests) => {
                 // Store the external state in application state
-                applicationState.requests = reservationRequests
+                applicationState.reservations = reservationRequests
             }
         );
 };
