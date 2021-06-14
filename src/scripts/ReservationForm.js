@@ -10,8 +10,9 @@ mainContainer.addEventListener("click", clickEvent => {
         const userChildName = document.querySelector("input[name='childName']").value
         const userChildrenAttending = document.querySelector("input[name='childrenAttending']").value
         const userAddress = document.querySelector("input[name='reservationAddress']").value
-        const userReserveDate = document.querySelector("input[name='reserveDate']").value
+        const userPartyDate = document.querySelector("input[name='partyDate']").value
         const userDuration = document.querySelector("input[name='duration']").value
+        const userDateReserved = document.querySelector("input[name='dateReserved']").value
 
         // Make an object out of the user input
         const dataToSendToAPI = {
@@ -19,8 +20,9 @@ mainContainer.addEventListener("click", clickEvent => {
             childName: userChildName,
             childrenAttending: userChildrenAttending,
             address: userAddress,
-            reserveDate: userReserveDate,
-            duration: userDuration
+            partyDate: userPartyDate,
+            duration: userDuration,
+            dateReserved: userDateReserved
         };
 
         // Send the data to the API for permanent storage
@@ -47,12 +49,16 @@ export const ReservationForm = () => {
             <input type="text" name="reservationAddress" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="reserveDate">Reservation Date</label>
-            <input type="number" name="reserveDate" class="input" />
+            <label class="label" for="partyDate">Party Date</label>
+            <input type="number" name="partyDate" class="input" />
         </div>
         <div class="field">
             <label class="label" for="duration">Duration</label>
             <input type="date" name="duration" class="input" />
+        </div>
+        <div class="field">
+            <label class="label" for="dateReserved">Date Reserved</label>
+            <input type="date" name="dateReserved" class="input" />
         </div>
         <button class="button" id="submitReservation">Submit Reservation</button>
     `

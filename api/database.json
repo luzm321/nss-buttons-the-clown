@@ -8,9 +8,9 @@
             "childName": "John Doe",
             "childrenAttending": 20,
             "address": "12345 Clown Drive",
-            "reservationDate": "2021-07-21",
+            "partyDate": "2021-07-21",
             "duration": 5,
-            "timestamp": 1248752
+            "dateReserved": "2021-06-14"
           }
     ]
 }
