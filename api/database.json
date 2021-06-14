@@ -1,0 +1,16 @@
+{
+    "clowns": [],
+    "completions": [],
+    "reservations": [
+        {
+            "id": 1,
+            "parentName": "Jane Doe",
+            "childName": "John Doe",
+            "childrenAttending": 20,
+            "address": "12345 Clown Drive",
+            "reservationDate": "2021-07-21",
+            "duration": 5,
+            "timestamp": 1248752
+          }
+    ]
+}
