@@ -13,34 +13,14 @@
       "dateReserved": "2021-06-14"
     },
     {
-      "id": 1,
-      "parentName": "Hi",
-      "childName": "Hello",
-      "childrenAttending": 20,
-      "address": "11112 Hola Drive",
-      "partyDate": "2021-07-25",
-      "duration": 3,
-      "dateReserved": "2021-06-14"
-    },
-    {
       "parentName": "Chris Evans",
       "childName": "James",
-      "childrenAttending": "15",
-      "address": "54321 No Way Street",
-      "partyDate": "2021-06-17",
-      "duration": "2",
+      "childrenAttending": "30",
+      "address": "54321 Fun Street",
+      "partyDate": "2021-06-27",
+      "duration": "5",
       "dateReserved": "2021-06-14",
-      "id": 2
-    },
-    {
-      "parentName": "afd",
-      "childName": "fadf",
-      "childrenAttending": "dfa",
-      "address": "adfdf",
-      "partyDate": "2021-06-25",
-      "duration": "1.5",
-      "dateReserved": "2021-06-14",
-      "id": 3
+      "id": 5
     }
   ]
 }

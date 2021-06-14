@@ -1,5 +1,6 @@
 import { ButtonsTheClown } from "./ButtonsTheClown.js";
 import { fetchReservations } from "./dataAccess.js";
+import { deleteReservation } from "./dataAccess.js";
 
 const mainContainer = document.querySelector("#container");
 
@@ -10,6 +11,13 @@ const render = () => {
         }
     );
 };
+
+mainContainer.addEventListener("click", click => {
+    if (click.target.id.startsWith("reservation--")) {
+        const [,reservationId] = click.target.id.split("--");
+        deleteReservation(parseInt(reservationId));
+    };
+});
 
 render();
 
