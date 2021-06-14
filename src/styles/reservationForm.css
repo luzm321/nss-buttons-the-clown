@@ -1,0 +1,61 @@
+div {
+    display: flex;
+}
+
+h1 {
+    padding: 0.8em 0.8em 0em 0.8em;
+    font-size: 60px;
+    color: rgb(218, 140, 218);
+    margin-left: 7em;
+}
+
+.gif {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+}
+
+.services {
+    padding: 0.5em 0;
+}
+
+.reservationForm {
+    font-size: 30px;
+}
+
+.reservationRequests {
+    font-size: 25px;
+    margin-left: 1.5em;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 35em 0.5em 1.3em;
+}
+
+.field input {
+    font-size: 26px;
+}
+
+.button {
+    margin: 2em 1.25em 1.25em 1.22em;
+    padding: 0.5rem;
+    background-color: rgb(236, 179, 236);
+    color: darkslategrey;
+    font-size: 1.1em;
+    font-family: "Dancing Script", cursive, "Patua One", serif;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.reservation__delete {
+    padding: 3px;
+    margin: 5px 0 5px 5px;
+    background-color: rgb(236, 179, 236);
+    color: darkslategrey;
+    font-size: 1em;
+    font-family: "Dancing Script", cursive, "Patua One", serif;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
