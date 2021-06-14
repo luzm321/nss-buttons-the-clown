@@ -1,9 +1,9 @@
 import { ButtonsTheClown } from "./ButtonsTheClown.js";
 import { fetchReservations } from "./dataAccess.js";
 
+const mainContainer = document.querySelector("#container");
 
 const render = () => {
-    const mainContainer = document.querySelector("#container");
     fetchReservations().then(
         () => {
             mainContainer.innerHTML = ButtonsTheClown();
