@@ -3,16 +3,6 @@
   "completions": [],
   "reservations": [
     {
-      "id": 1,
-      "parentName": "Jane Doe",
-      "childName": "John Doe",
-      "childrenAttending": 20,
-      "address": "12345 Clown Drive",
-      "partyDate": "2021-07-21",
-      "duration": 5,
-      "dateReserved": "2021-06-14"
-    },
-    {
       "parentName": "Chris Evans",
       "childName": "James",
       "childrenAttending": "30",
@@ -21,6 +11,26 @@
       "duration": "5",
       "dateReserved": "2021-06-14",
       "id": 5
+    },
+    {
+      "parentName": "Scarlett Andrews",
+      "childName": "Skyler",
+      "childrenAttending": "15",
+      "address": "2121 Happy Avenue",
+      "partyDate": "2021-08-14",
+      "duration": "3.5",
+      "dateReserved": "2021-06-14",
+      "id": 6
+    },
+    {
+      "parentName": "Michael Scott",
+      "childName": "Nathaniel",
+      "childrenAttending": "20",
+      "address": "12345 Clown Drive",
+      "partyDate": "2021-07-21",
+      "duration": "5",
+      "dateReserved": "2021-06-13",
+      "id": 7
     }
   ]
 }
