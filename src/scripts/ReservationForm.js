@@ -42,10 +42,10 @@ export const ReservationForm = () => {
         </div>
         <div class="field">
             <label class="label" for="childrenAttending">Number of Children Attending:</label>
-            <input type="text" name="childrenAttending" class="input" />
+            <input type="number" name="childrenAttending" class="input" />
         </div>
         <div class="field">
-            <label class="label" for="reservationAddress">Address:</label>
+            <label class="label" for="reservationAddress">Party Address:</label>
             <input type="text" name="reservationAddress" class="input" />
         </div>
         <div class="field">
@@ -60,7 +60,7 @@ export const ReservationForm = () => {
             <label class="label" for="dateReserved">Date Reserved:</label>
             <input type="date" name="dateReserved" class="input" />
         </div>
-        <button class="button" id="submitReservation">Submit Reservation</button>
+        <button class="button" id="submitReservation">Reserve Party</button>
     `
 
     return html;
