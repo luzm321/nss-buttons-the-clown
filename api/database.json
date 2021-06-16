@@ -1,6 +1,36 @@
 {
-  "clowns": [],
-  "completions": [],
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": "8",
+      "clownId": "1",
+      "date_created": "6/16/2021",
+      "isCompleted": true,
+      "reservationChildName": "Andrea",
+      "reservationDate": "2021-06-19",
+      "clown": "Buttons",
+      "id": 1
+    },
+    {
+      "reservationId": "9",
+      "clownId": "2",
+      "date_created": "6/16/2021",
+      "isCompleted": true,
+      "reservationChildName": "Gabriel",
+      "reservationDate": "2021-06-18",
+      "clown": "Lollipop",
+      "id": 2
+    }
+  ],
   "reservations": [
     {
       "parentName": "Chris Evans",
@@ -10,6 +40,7 @@
       "partyDate": "2021-06-27",
       "duration": "5",
       "dateReserved": "2021-06-14",
+      "isCompleted": false,
       "id": 5
     },
     {
@@ -20,6 +51,7 @@
       "partyDate": "2021-08-14",
       "duration": "3.5",
       "dateReserved": "2021-06-14",
+      "isCompleted": false,
       "id": 6
     },
     {
@@ -30,7 +62,30 @@
       "partyDate": "2021-07-21",
       "duration": "5",
       "dateReserved": "2021-06-13",
+      "isCompleted": false,
       "id": 7
+    },
+    {
+      "parentName": "Christopher Reeves",
+      "childName": "Andrea",
+      "childrenAttending": "12",
+      "address": "2021 Party Place",
+      "partyDate": "2021-06-19",
+      "duration": "2",
+      "dateReserved": "2021-06-16",
+      "isCompleted": false,
+      "id": 8
+    },
+    {
+      "parentName": "Jericho Rosales",
+      "childName": "Gabriel",
+      "childrenAttending": "35",
+      "address": "Fiesta Boulevard",
+      "partyDate": "2021-06-18",
+      "duration": "6",
+      "dateReserved": "2021-06-14",
+      "isCompleted": false,
+      "id": 9
     }
   ]
 }

@@ -2,6 +2,11 @@ import { sendReservation } from "./dataAccess.js";
 
 const mainContainer = document.querySelector("#container");
 
+// What this is doing is getting the input element who has a property of name and the value of name is parentName
+// document.querySelector("input[name='parentName']")
+// on a raw xpath this query would be like this: //input[@name='parentName']
+//xpath is a query language for selecting elements in a webpage from an html or xml document, using brackets allows you to find an element
+//by using a specific property value of name in example below: 
 
 mainContainer.addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "submitReservation") {
@@ -22,10 +27,13 @@ mainContainer.addEventListener("click", clickEvent => {
             address: userAddress,
             partyDate: userPartyDate,
             duration: userDuration,
-            dateReserved: userDateReserved
+            dateReserved: userDateReserved,
+            isCompleted: false
         };
 
         // Send the data to the API for permanent storage
+    //As user types into form fields and changes state of the app, this transient state is converted into permanent state by storing it in the 
+    //database.json file via the POST fetch call/sendReservation() fxn as illustrated below:
         sendReservation(dataToSendToAPI);
     };
 });
