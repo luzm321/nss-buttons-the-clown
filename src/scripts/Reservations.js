@@ -1,6 +1,11 @@
-import { getReservations } from "./dataAccess.js";
+import { getReservations, deleteReservation } from "./dataAccess.js";
 
-
+mainContainer.addEventListener("click", click => {
+    if (click.target.id.startsWith("reservation--")) {
+        const [,reservationId] = click.target.id.split("--");
+        deleteReservation(parseInt(reservationId));
+    };
+});
 
 export const Reservations = () => {
     const reservations = getReservations();

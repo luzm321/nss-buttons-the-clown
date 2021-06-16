@@ -1,5 +1,14 @@
 {
-  "clowns": [],
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
   "completions": [],
   "reservations": [
     {
@@ -31,6 +40,16 @@
       "duration": "5",
       "dateReserved": "2021-06-13",
       "id": 7
+    },
+    {
+      "parentName": "Christopher Reeves",
+      "childName": "Andrea",
+      "childrenAttending": "12",
+      "address": "2021 Party Place",
+      "partyDate": "2021-06-19",
+      "duration": "2",
+      "dateReserved": "2021-06-16",
+      "id": 8
     }
   ]
 }
