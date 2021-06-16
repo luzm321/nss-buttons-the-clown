@@ -45,7 +45,7 @@ export const Reservations = () => {
         return parseInt(a.date_created.split("-").join("")) - parseInt(b.date_created.split("-").join(""))
     });
 
-    //Then you map through the sortedReservations variable that contains the array of reservation objects that have been sorted chronologically:
+    //Then you map through the sortedReservations function that contains the array of reservation objects that have been sorted chronologically:
 
     let reservationHTML = `<ul class="reservations">
         ${sortedReservations().map(reservation => `<li>
