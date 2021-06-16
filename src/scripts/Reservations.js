@@ -59,7 +59,7 @@ export const Reservations = () => {
             </li>`).join("")    
         }
         
-        ${completedRequests.map(completedRequest => `<li class="completedRequest">
+        ${completedRequests.map(completedRequest => `<li class="completedReservation">
         Birthday party for ${completedRequest.childName} has been completed on ${completedRequest.date_created} by ${completedRequest.clown}.
         <button class="reservation__delete" id="reservation--${completedRequest.id}"> Deny </button>
         </li>`).join("")

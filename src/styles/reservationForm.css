@@ -59,3 +59,7 @@ h1 {
     border-top-right-radius: 18px;
     border-bottom-left-radius: 18px;
 }
+
+.completedReservation {
+    background-color: rgb(245, 125, 125);
+}
