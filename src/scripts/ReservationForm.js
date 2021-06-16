@@ -27,10 +27,13 @@ mainContainer.addEventListener("click", clickEvent => {
             address: userAddress,
             partyDate: userPartyDate,
             duration: userDuration,
-            dateReserved: userDateReserved
+            dateReserved: userDateReserved,
+            isCompleted: false
         };
 
         // Send the data to the API for permanent storage
+    //As user types into form fields and changes state of the app, this transient state is converted into permanent state by storing it in the 
+    //database.json file via the POST fetch call/sendReservation() fxn as illustrated below:
         sendReservation(dataToSendToAPI);
     };
 });
