@@ -19,6 +19,16 @@
       "reservationDate": "2021-06-19",
       "clown": "Buttons",
       "id": 1
+    },
+    {
+      "reservationId": "9",
+      "clownId": "2",
+      "date_created": "6/16/2021",
+      "isCompleted": true,
+      "reservationChildName": "Gabriel",
+      "reservationDate": "2021-06-18",
+      "clown": "Lollipop",
+      "id": 2
     }
   ],
   "reservations": [
@@ -65,6 +75,17 @@
       "dateReserved": "2021-06-16",
       "isCompleted": false,
       "id": 8
+    },
+    {
+      "parentName": "Jericho Rosales",
+      "childName": "Gabriel",
+      "childrenAttending": "35",
+      "address": "Fiesta Boulevard",
+      "partyDate": "2021-06-18",
+      "duration": "6",
+      "dateReserved": "2021-06-14",
+      "isCompleted": false,
+      "id": 9
     }
   ]
 }
